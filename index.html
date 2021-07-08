@@ -5,8 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .wrapper{
+            display: grid;
+            grid-template-columns: 40% 30% 30%;
+            /* grid-column-gap: 1em;
+            grid-row-gap: 1em; */
+            grid-gap: 1em;
+        }
+        .wrapper > div{
+            background: #eee;
+            padding: 1em;
+        }
+        .wrapper > div:nth-child(odd){
+            background: #ddd;
+        }
+    </style>
 </head>
 <body>
-    
+    <div class="wrapper">
+        <div>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam animi cum atque eum qui distinctio voluptatibus minima sapiente sed quae magni ea, itaque consequatur molestias explicabo aut nemo, quo architecto optio quis recusandae eaque aspernatur aliquid fuga? Id, quod officiis. Commodi, magnam. Consequuntur repellat, sit quas debitis nesciunt alias perspiciatis facere error eos quibusdam doloremque! Suscipit voluptas recusandae quas temporibus voluptate mollitia quam at fuga officia doloribus laudantium animi vero deserunt quo sint tenetur vel nemo, quisquam beatae, aspernatur maiores.
+        </div>
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias repudiandae exercitationem, neque nisi ex repellat numquam, nihil possimus rerum quo necessitatibus! Ipsam atque sequi assumenda vero mollitia recusandae sunt numquam!
+        </div>
+        <div>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam animi cum atque eum qui distinctio voluptatibus minima sapiente sed quae magni ea, itaque consequatur molestias explicabo aut nemo, quo architecto optio quis recusandae eaque aspernatur aliquid fuga? Id, quod officiis. Commodi, magnam. Consequuntur repellat, sit quas debitis nesciunt alias perspiciatis facere error eos quibusdam doloremque! Suscipit voluptas recusandae quas temporibus voluptate mollitia quam at fuga officia doloribus laudantium animi vero deserunt quo sint tenetur vel nemo, quisquam beatae, aspernatur maiores.
+        </div>
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias repudiandae exercitationem, neque nisi ex repellat numquam, nihil possimus rerum quo necessitatibus! Ipsam atque sequi assumenda vero mollitia recusandae sunt numquam!
+        </div> 
+        <div>
+            Hello
+        </div>
+    </div>
 </body>
 </html>
